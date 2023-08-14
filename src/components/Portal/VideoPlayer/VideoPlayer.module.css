@@ -1,0 +1,67 @@
+.videos {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.player {
+  min-width: 100px;
+  width: 940px;
+  height: 620px;
+}
+
+.description {
+}
+
+.description h1 {
+  font-size: 26px;
+  margin: 15px 0;
+  border-bottom: 1px solid black;
+}
+
+.description p {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .description h1 {
+    font-size: 22px;
+  }
+  .description p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .description h1 {
+    font-size: 18px;
+  }
+  .description p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .playerWrapper {
+    width: 100%;
+  }
+
+  .player {
+    width: 540px;
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .player {
+    width: 640px;
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .player {
+    width: 320px;
+    height: 320px;
+  }
+}

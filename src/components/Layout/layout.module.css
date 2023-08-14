@@ -1,0 +1,11 @@
+.Layout {
+    padding: 0 5%;
+    border: 1px solid red;
+    background-color: rgb(226 232 240)
+}
+
+.Layout main {
+    border: 1px solid green;
+    min-height: 80vh;
+    margin: auto;
+}

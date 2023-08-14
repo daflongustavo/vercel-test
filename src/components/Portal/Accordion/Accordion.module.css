@@ -1,0 +1,7 @@
+.courses {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 20px;
+}

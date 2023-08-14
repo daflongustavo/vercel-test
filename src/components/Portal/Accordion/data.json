@@ -1,0 +1,45 @@
+[
+  {
+    "name": "curso python",
+
+    "description": "aprenda python",
+    "topics": [
+      {
+        "name": "topico 1",
+        "description": "aprenda dia 1",
+        "headingID": "item-1-header",
+        "answerID": "item-1-answer",
+        "classes": [
+          {
+            "title": "python",
+            "description": "aprenda python aqui",
+            "video_url": "https://www.youtube.com/embed/4p7axLXXBGU"
+          },
+          {
+            "title": "docker",
+            "description": "aprenda docker aqui",
+            "video_url": "https://www.youtube.com/embed/Kzcz-EVKBEQ"
+          }
+        ]
+      },
+      {
+        "name": "topico 2",
+        "description": "aprenda dia 2",
+        "headingID": "item-2-header",
+        "answerID": "item-2-answer",
+        "classes": [
+          {
+            "title": "git",
+            "description": "ccc",
+            "video_url": "www.blabla.com"
+          },
+          {
+            "title": "docker",
+            "description": "aaaa",
+            "video_url": "www.youtube.com"
+          }
+        ]
+      }
+    ]
+  }
+]

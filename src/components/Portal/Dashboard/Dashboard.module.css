@@ -1,0 +1,17 @@
+.Dashboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: rgb(226 232 240);
+  border: 2px solid red;
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .Dashboard {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
